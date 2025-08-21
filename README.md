@@ -1,2 +1,10 @@
 # quiltgenerator
-This code will generate a virtual quilt comprised of various blocks, with options for modern or traditional styles, different difficulty levels, a few layout options, and amount of variability among blocks. Created as my final project for my Harvard DCE Python course.
+This code will generate a virtual quilt comprised of various blocks, based on a series of user inputs. Created as my final project for my Harvard DCE Python course.
+
+When not working or taking classes, I am an avid quilter who enjoys piecing together new patterns. Quilting has been practiced for hundreds of years across many cultures, but my program emulates more recent quilting traditions for making quilted blankets. 
+
+With this program, the user may select the type of blocks available for the pattern, modern or traditional; the “size” of the quilt, as in the number of rows and columns the blocks are arranged in; the difficulty of the blocks, from easy to sew, to intermediate, to challenging; and finally an additional fourth option that may become available based on the other inputs, which is whether all of the blocks are “unique” such that no two blocks are repeated in the quilt. Taken together, my program then draws these blocks on the Turtle canvas and displays the quilt for a bit before closing the window and prompting the user to either render another quilt or close the program.
+
+To run the program, the user should execute quilting.py. They will see printed in the console a bit of information about the script and what to expect to see the program do. Then the program asks for user input on the type of block (modern, traditional, or a combination), the size of the quilt (2x2, 2x3, or 3x3), and the difficulty scale (easy only, easy or intermediate, all levels). The user may enter “A”, “B”, or “C” to respond to these requests for input.
+
+One additional option appears if the user says they would like a combination of all blocks at all levels. This option asks whether the user would like a quilt with all unique blocks. Uniqueness is not always an option because there needs to be a big enough block pool to choose from to ensure there are enough blocks to complete the grid. If the user is given this option and selects yes, the resulting quilt will not have any duplicate blocks; if the user says no, the quilt may or may not be unique.
